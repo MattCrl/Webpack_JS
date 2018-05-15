@@ -1,3 +1,11 @@
-@import "~bootstrap/scss/bootstrap";
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
 
 $theme-colors: ("primary": #d60489);
+
+h1 {
+  color: red;
+}
+
+@import "~bootstrap/scss/bootstrap";

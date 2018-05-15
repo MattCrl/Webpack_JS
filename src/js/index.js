@@ -1,5 +1,8 @@
-import '../../assets/scss/style.scss';
-
 let $ = require("jquery");
+
+import '../../assets/scss/style.scss';
+import 'bootstrap';
+
+
 
 console.log("Bienvenue dans WebPack!");
